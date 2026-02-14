@@ -1,5 +1,5 @@
 ## ÉVALUATION EN COURS DE FORMATION 
-TP – Developpeur Web et Web Mobile 👋
+TP – Developpeur Web et Web Mobile
 
 ## Énoncé
 
