@@ -158,6 +158,123 @@ Attention de respecter la nomenclature des différents champs créer dans cette 
 
 <img width="576" height="334" alt="Table_commande" src="https://github.com/user-attachments/assets/dbc88ec3-66cd-47a3-91f2-4c7158b0db65" />
 
+## Création du compte "Admin sur la base de donnée "user" :
+
+
+## Lecture du projet en local depuis le navigateur :
+
+Une fois toutes ces étapes réalisées, il est temps de naviguer sur ce projet depuis votre navigateur. Pour cela ouvrez le fichier "index.php" sur votre navigateur.
+
+
+Vous arrivez donc sur la page d'accueil du site. Il faudra pour commencer créer votre compte admin.
+
+
+## Création du compte "Admin" depuis le site :
+
+
+Dirigez vous vers le menu "connection" puis cliquez sur "nouveau membre"
+
+
+Voici les champs a remplir pour parametrer votre compte admin :
+
+
++ "Email" --> "admin@viteetgourmand.fr"
++ "Mot de passe" --> "admin"
++ "prenom" --> "admin"
++ "telephone" --> "1234567890"
++ "ville" --> "Bordeaux"
++ "pays" --> "France"
++ "adresse" --> "4 rue de bordeaux"
++ "Cp" --> "33000"
+
+  - Votre compte admin est maintenant créé dans la base de donnée. Ces identifiants vous permettrons d'avoir accée à différentes partie du site que les "visiteurs" n'ont pas accées.
+ 
+
+## Création du compte "Employé" depuis le site :
+
+- Dirigez vous vers le menu "espace administrateur" puis remplissez les champs suivants :
+
+    + "Email" --> "employe@viteetgourmand.fr"
+    + "Mot de passe" --> "employe"
+
+- Appuyer sur le bouton "créer l'utilisateur" puis remplissez les champs suivant sans restriction de valeur :
+
+    + "prenom" --> "employe"
+    + "telephone" --> "1234567890"
+    + "ville" --> "Bordeaux"
+    + "pays" --> "France"
+    + "adresse" --> "4 rue de bordeaux"
+    + "Cp" --> "33000"
+
+- Cochez obligatoirement la case "employé" puis cliquez sur "enregistrer".
+
+  Votre compte "employé" est maintenant créé !
+
+  ## Déscription du site :
+
+  Maintenant que vos différents comptes ont été créés, vous pouvez vous ballader sur le site pour étudier l'ensemble des fonctionnalitées.
+
+
+  - Accueil :
+  
+
+  Cette page est accéssible a tout le monde et vous permet de voir le profil des deux associés Julie et José.
+
+  - Espace administrateur :
+  
+
+  Cette page est accéssible uniquement aux membre de type "Admin" et "Employé". Elle vous permet d'avoir accès à l'ensemble des commandes, et de modifier leurs status.
+  Si le compte connecté est celui de l'admin, il aura donc la possibilité d'ajouter un nouvel utilisateur.
+
+
+  Pour modifier le statut d'une commande, il suffit de remplir le champs "Cmd" avec le numéro de commande à modifier, puis de cliquer sur le boutton "modifier".
+
+
+  Cela redirige l'utilisateur vers une page de modification de commande. Il lui faudra juste cocher la case correspondant à son souhait puis de cliquer sur "valider" pour mettre à jour l'état de la commande.
+
+
+  - deconnection :
+  
+  Ce liens permet simplement de déconnecter l'utilisateur et de le rediriger vers la page d'accueil.
+
+
+   - tous les menus :
+
+  Cette page vous donne accès aux différents menus proposé par les deux collaborateurs.
+
+
+  Si vous ètes un "admin" ou un "employé" il vous sera possible de cliquer sur le boutton "nouveau menu" apres avoir saisis le nom du menu que vous souhaitez ajouter.
+
+  Il vous sera également possible de supprimer un menu en indiquant son nom, puis en cliquant sur le boutton "supprimer le menu"
+
+
+  Pour tous les autres utilisateurs, cette page leur permet donc de visualiser les menu et d'en commander en cliquant sur le titre du menu choisi.
+
+  - ajout d'un menu :
+ 
+  Lorsqu'un admin ou un employé souhaite ajouter un menu, après avoir cliqué sur le boutton "nouveau menu", il sera demandé de remplir les différents champs pour incrémenter la base de donnée, ainsi que de telecharger un fichier qui sera la photo du menu qui apparaitra dans la page "tous les menus".
+
+
+   - contact :
+  
+  Cette page vous donne accès au contact du restaurant.
+
+
+  - Formulaire de commande de menu :
+  
+
+  Après avoir cliqué sur le titre du menu choisis, le site vous redirige vers le formulaire de commande.
+
+  Il vous suffira de remplir les champs du formulaire puis de cliquer sur le boutton "valider la commande" pour avoir accès au récap de votre commande.
+
+
+  - Récap de votre commande :
+  
+  Sur cette page, le récap de votre commande avec le tarif associé vous sera affiché. Si la commande vous convient, vous pouvez donc cliquer sur le boutton "valider la commande".
+
+  Le site vous redirige automatiquement vers votre espace personnel ou il sera afficher toutes les commandes étant associées à votre Email.
+
+
 
 
 
