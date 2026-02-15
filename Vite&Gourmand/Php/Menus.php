@@ -41,7 +41,7 @@ if (!empty($_POST["Suppression_Menu"])){
 
 //Si l'utilisateur est un admin, on affiche le boutton Nouveau Menu
 
-    if (isset ($Role) && $Role == "Admin"){ 
+    if (isset ($Role) && $Role == "Admin" || $Role == "Employe"){ 
         echo ('<div class="Creation_Menu">');
         echo ('<form method="post" >');
         echo ('<label> Nom du menu : </button>');
@@ -50,6 +50,7 @@ if (!empty($_POST["Suppression_Menu"])){
         echo ('</form >');
         echo ('</div>');
     }
+
     ?>
 
 <!-- On effectue une requête sql pour afficher les menus -->
@@ -107,7 +108,7 @@ if (!empty($_POST["Suppression_Menu"])){
 
 //Si l'utilisateur est un Admin, on affiche le boutton Supprimer
 
-    if (isset ($Role) && $Role == "Admin"){ 
+    if (isset ($Role) && $Role == "Admin" || $Role == "Employe"){ 
         echo ('<div class="Suppression_Menu">');
         echo ('<form method="post" >');
         echo ('<label> Nom du menu :  </button>');
