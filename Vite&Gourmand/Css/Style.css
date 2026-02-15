@@ -1,0 +1,195 @@
+header{
+    display: flex;
+    border: 1px Solid Black;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../Images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: 6vw;
+    background-position-y: center;
+    background-position-x: 1vw;
+}
+
+H1{
+    margin-left: 20vw;
+}
+
+#Boutt_Menu {
+    margin-right: 8vw;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+#Boutt_Menu:hover{
+    color: brown;
+    font-size: 18px;
+}
+
+.Formulaire_Connection{
+    display: flex;
+    justify-content: center;
+}
+
+.Section_Formulaire1{
+    float: left;
+    margin: 2vw;
+}
+
+.Section_Formulaire2{
+    float: right;
+    margin: 2vw;
+}
+
+#formulaire_inscription{
+    margin: 1vw;
+}
+
+
+#Nouv_Membre {
+    text-decoration: none;
+    margin: 2vw;
+    color: rgb(14, 6, 98);
+    border-bottom: 1px solid black;
+}
+
+#Nouv_Membre:hover {
+    font-style: bold;
+    font-size: 18px;
+}
+
+#div{
+    margin: 2vw;
+}
+
+#description_img{
+    display: flex;
+    border: 1px solid black;
+    margin: 2vw;
+    align-items: center;
+}
+
+#description_profil{
+    margin: 2vw;
+}
+
+img{
+    margin: 1vw;
+}
+
+h3{
+    text-decoration: underline brown;
+}
+
+footer{
+    border-top: 1px solid Black;
+}
+
+#CGV{
+    margin-left: 30vw;
+}
+
+
+.Contacte_sec{
+    height: 20vw;
+}
+
+#Contacts{
+    display: flex;
+    margin: 2vw;
+}
+
+#Label_Contacts{
+    border-bottom: 1px solid brown;
+}
+
+#Mailto{
+    text-decoration: none;
+    color: black;
+}
+
+#Mailto:hover{
+    border-bottom: 1px solid brown;
+    color: brown;
+    font-size: larger;
+}
+
+.Nouv_Menu{
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid Black;
+    width: 40vw;
+}
+
+.div_nouv_menu{
+    margin: 1vw;
+}
+
+.titre_menus{
+    border-bottom: 1px brown solid;
+}
+
+.div_menus{
+    margin: 1vw;
+}
+
+.Creation_Menu{
+    margin: 2px;
+}
+
+.Affichage_Menus{
+    display:flex;
+    border: solid 1px black;
+    margin: 2vw;
+    padding: 2vw;
+}
+
+.cmd_form{
+    text-decoration: none;
+    color: black;
+}
+
+.Menu_Cmd:not(.div_menus_cmd){
+    margin: 2vw;
+    justify-items: center;
+}
+
+.div_menus_cmd{
+    margin: 1px;
+    justify-content: left;
+}
+
+.mes_commandes{
+    display: flex;
+    border: solid 1px black;
+    margin: 2vw;
+    width: 90vw;
+    justify-content: center;
+}
+
+.int_colonne{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    font-size: 11px;
+}
+
+.result_colonne{
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.titre_colonne{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.Modif{
+    display: flex;
+}
+
+.check_liste{
+    margin: 1vw;
+}
